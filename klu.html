@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KLU</title>
+    <style>
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            font-size: 20px;
+            align-content: center;
+            background-color: #fff;
+            font-family: 'Mukta', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            margin-bottom: 30px;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            text-decoration: none;
+            font-family: 'Mukta', sans-serif;
+            color: #33BBC5;
+            text-decoration: none;
+
+        }
+
+        .floating img {
+            float: left;
+            background-color: #fff;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            padding-top: 1px;
+
+
+
+        }
+
+        #c {
+            padding-left: 30px;
+            padding-top: 30px;
+
+            color: #fff;
+            background-color: #F8B400;
+        }
+
+        #a {
+            float: left;
+            background-color: #BB2525;
+            color: #fff;
+        }
+
+        #b {
+            float: left;
+            background-color: #BB2525;
+            color: #fff;
+            margin-top: 45px;
+        }
+
+        .box {
+            color: #fff;
+            background-color: #b31515;
+            justify-content: center;
+            border-color: #ffffff;
+            border-width: 3px 3px 3px 3px;
+            padding: 10px 10px 10px 10px;
+
+        }
+
+        h1 {
+            font-family: 'Noto Sans', sans-serif;
+
+        }
+
+        .rate {
+            background-color: #fff;
+            color: #000;
+        }
+
+        .x {
+            color: #000;
+            background-color: #FFF5E0;
+        }
+
+        .nav {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            font-size: 20px;
+            text-decoration: none;
+            background-color: #FFF5E0;
+            font-family: 'Mukta', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            margin-bottom: 30px;
+        }
+
+        .links {
+            text-decoration: none;
+            font-family: 'Mukta', sans-serif;
+            color: #161414;
+
+        }
+
+        .n {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            font-size: 20px;
+            align-content: center;
+
+            font-family: 'Mukta', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            margin-bottom: 30px;
+            text-decoration: none;
+        }
+
+        .l {
+            text-decoration: none;
+            font-family: 'Mukta', sans-serif;
+            color: #e7e1e1;
+            text-decoration: none;
+            padding-left: 50px;
+
+        }
+
+        .o {
+            color: #fff;
+            background-color: #b31515;
+            justify-content: center;
+            border-color: #ffffff;
+            border-width: 3px 3px 3px 3px;
+            padding: 20px 20px 10px 20px;
+
+        }
+
+        .cam {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            background-color: rgb(214, 236, 236);
+            font-family: 'Mukta', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            padding-top: 10px;
+padding-bottom: 30px;
+        }
+
+        .pus {
+            text-decoration: none;
+            font-family: 'Mukta', sans-serif;
+            color: rgb(65, 62, 60);
+
+
+        }
+        .navbar {
+            color: hsl(0, 67%, 56%);
+            background-color: #FFF5E0;
+        }
+        .v{
+           padding: 30px 2px 3px 1px;
+           background-color: #BB2525;
+            color: #fff;
+        }
+
+        #xy {
+            float:right;
+            background-color: #BB2525;
+           padding: 10px;
+           padding-right: 50px;
+        }
+        .ty{
+            background-color: #BB2525;
+            color: #fff;
+        }
+        .ui{
+            background-color: #BB2525;
+            color: #fff;
+            text-decoration: none;
+            
+        }
+        .ia{
+            float: left;
+            
+        }
+        .e{
+            color: #fff;
+            background-color: #BB2525;
+        }
+        .k{
+            color: #fff;
+            background-color: #BB2525;
+           padding-left: 30px;
+        }
+        .fot{
+            background-color: rgb(214, 236, 236);
+        }
+        .qui{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            font-size: 20px;
+            align-content: center;
+            background-color: #413838;
+            font-family: 'Mukta', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            margin-bottom: 30px;
+            text-decoration: none;
+        }
+
+        .qw {
+            text-decoration: none;
+            font-family: 'Mukta', sans-serif;
+            color: #fff;
+            text-decoration: none;
+            padding-left: 600px;
+
+        }
+        .kl{
+            background-color: #BB2525;
+            color: #fff;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div class="floating para css">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVkAAACSCAMAAADYdEkqAAABFFBMVEX///+nHiXTKjUiHx8AAAChAADQBhzTKDP33+Dw3d79+PikDBfIg4amGiKmpaXULzmrLTOpIyrx8fHSIS7ea3GRkZHnysuamprr6+vAwMD44eJmZmb5+flaWlocGBiwsLAYFBQQCwvY2NiDg4Pi4uJ5eHg7OTlHR0fOzs66urqVlZUmJibGxsbU1NT16Ol6enpubW24IytSUVGzISrSFyYxLy+XAADEJjA/Pj6KiYnRn6DUpaZMS0vas7SjABDiv8C+dXbVN0HcXmXOAAC0S1C0XV7DgIHZTVXmlprzy826aWrghorrq67Jjo/jxsazRkrksLLefYKlOTmxVVbpr7K1AAjganDxw8XbmZzFRUu/MjrBABRPPUsJAAAez0lEQVR4nO2dC3vitraGNYNIxk7jZpyCTX3DxtyvZULCJQTaJrSlJdlNdnf3Oef//4+jJV+xLWOSNuTsk2+eZyDGyPCyvLQkLUkIvetd73rXu966tPbIky4d+sP8R8nUiXLkn66bg0N/mP8kiTiXy5Ux+ZfL6eNDf5r/JHUJWV1rKB1NJ4TVQ3+c/8NqyNt/G2CzuIls+mhHzo6c/C6mxCqubR+ZmMRUFeQgxp3I6XgYZf2uRAnYzEWqKYX4V3NCnoDRYmH7/JFexoU9r/GJrW+zl9ILiXP1LUO07F/2/Jh/qTojuONz2IutxE5LGRGwOb1N/GvVhKpspLVKoveGIRzC7Q6jvETxF0dM/ZC5lHk+QeyCj3786dM+H/Kvla1hTMnmcIn8abXq5O+yTo/o2B47r+llE+NxoQvvGEDlVlbGWNnD3fKfTz+4+vLly3dEV1dXH6nOv8layFd5v5CQjj8ydH7x771x/GVSKySwEgQHJG4URth0njsHOqrdDv7UTdye2BKAHctNS8A4exMiRNYn/HE/sr3bmwSufjExXYDB/kPcXfDfoQZxsDl9OJFdqw1jpQfs0fYRApe6gi6xdLuu41oj45XiZD8e70e2eHqSBPbDd8lcj49+JY7tm6MDkXWI6rijlXNJMquJhwlxU8clUsuVRxmvFCV7FdzD2cjOEj0BlJRssF+TuuvP84vjA5FFDlFT6tdi9IhrJb4Vm2ZZj5MVmqYml2nEm03bZK/CvjET2WU+mWsy2eOjb3jE/350fHwwsk0wWhPbWMY4AFiGSm2sVQqSJBUqyjgHldo22pbYqZE36FlbZ2GyERYZyPYeE10si+z5xT8Q+uX4giA+GFlEyJYrqmohSxw6aE1c1qRIk0zuCko57IVxU7XJ+TTizaSAbMwv7iZbvGF4AlCCwf7QQyox2I8HJVuh4WqZWG29TbG2J13GqVarTasvB213XE5o9jLlkU2ob3aS3bBcbCLZ86PfyG/x8cKhfDiyblSg221ikBhXfaw8R27CzZKbzjjEewetvhv75sqDkdv8zSaH7JePCcHnDrL8HdPFUkVKvPieNOl+PXKPHpBs37VCaMMS5+kcLKLiHXeJEHfWQ/nFZe+G23h4VcFlC353T7KMyDOdLHeWHGwl2yyNtT59feH/fSiyqtvEon6g5RxboOllsXdTpGQfi3l0wuX5k97p8s59kxT4BLOW9YMTskn2upPsItUTfIg0FC6OSaz164/BhQ5FVsz5NT4e0I/A9dBlb7Y5Q/n5ZQ9xnxF/yueLZ/xN8Qxd8twdNVy178cRZTNjC5e/YjdCU8h+le4JPmw5bhJrkW8QGOzhyMp+ZW/qTluKv/yMVtP58nJx1nu8R9zj2ezz2d3idnG7mZKXP5xyt0U4z2p7tq5nrMT4r59Blk9uz24pCLrOL/5E6Ocft65zGLKiDxY7PYh3G/Q0Xfc+L1bc06LX8+stNF/2lrOH+Xp+RhzEGT1U2RPtc8hyjPZsIlkSa/Ho2+8vtss+CFkx54OFhhQ/Res8v15eTh8XXMLpi+nsdnmCHubobg5/lzyPoOMsDuEZZP+5y8VSeYVArPXvo/NI2a9J1sIFx8hqZY+MRf7qcfm7+Xo92/CL0MmqGm5j8cVbEjFwl/wazrE9J63n6EmqUUtpkO1P9vejDFw9shc/fYt6P13ErvGaZOtlE18bKtLcCr48ote+LG7WD9PbmWuuYqM1aGNsQrdsTml1vM+3WqB88WGzArMVx14RdYQaA9ICrrAvuy9ZwPQlK9njo58R+i1msK9LlnYU6NgcelSooa2mxcveyf3SOUcWanhY6NiOCap2p6XhkeS609nd7InQXYAX9goxFadfN8Xl7kn2l3OC6buMZC++/0R+iaOkC7wiWS8U1UNg+Vnvcr15nDt+oHONK/EGrlUxxyXn6dm36xX5IeCp//voufaonSsPmdfdj+zPFNNVJrLHR78Tn3yRYLCvSnZiQtIL9gYK6EgXv1yB89xQVqWcBzCmzrVJX+KfbrnTO+4DPB97AXF5AIOS7E7Ffcjy37j2lwHsl/PjP1Hvh0SDfU2yMs7h8WiM3G6tHK3W54+bh810A6/b49RBAqvehtqOhL3F5SkNbEXdDzBs2tHIeuseZIPQKQPZP/7Foz8ZBkvJvlISilbGBuFb8ToLCEZ+gxaL3iUNXgs7O7I7Ti3VK+bnzgELB2QHZo45WJ6dbMDpeCfXk/w/yDt+v4gXSr3J1ZfTs5fgyq4G1iFhQ/XAwgAh/4DQ9PM9eSbWlOAHFlh30SAHdl6EJtmUvNVJpoHCRLtUwjlWcJuZ7M+hG3tXcJC/pR7s17DJHh8D0u/ct74W2TapaMiD6jjHskaez85WZ1/Rir4L5uyp1OqzCmli12EsHxdr8jAwXbLEbMumyej+ykiW/yFsf+lV2Gl+47zJJeua6fY5r0NWgK7CgqpWPRZwcHY5n8Kd3aENBk8ailbztuFlbtiOz3hcL7lez/+diDcwC13xOpqp5Cob2U9fb3vMNLA3Z15T8deLsJkegmyNZr+ZpguWmGjvbMMXL+ETlvxYVFEkVe0jbfu9EmkIjAj7Rh3SusC6i5CyAt+u5KTYGMTLaloOXydeOxPZf0ar+DSD/cov+yt298JreYOB3xtLAi6CCHH5Tf4WwthG4B8VtaENOuShJEh+5C8SD4pNXKniNv2Lhl+bPMc9Im8AmDZBdKwlV8ZZyP4aBcuuwk4+3AdlvwGySArQYtoaKJ5t7nm4wYPWk0ystTIURn3D6vhZdDJuNxtVYreOz5Dpw0Nvdkl7EEKlsoYcd5Plf4pX8Ywq7DS/5kNlvwWyxJt6jS9S0/A8BLNwGIejWEtp1FqVEamrhoH9aQDZEgTXtLuYvMRdPnJTiNeqXssuXAluayfZX44TgtLk9u3JzXyr7DdBFsluOhEY3fxyhjgInxQSfjU1j2NnOFIk43qghHM7tYj7FOBvvpi/g0rMHabMtS3E0i6yvyW2ohKDAzfWCvQ2yKKa7kdciHv4DLdVqd5CA0PpOiQBs24YbWErOhhGMpfRNZjnY5Ffg9EOnPigzb7sDrK/M5qnSZ5gGi37bZDtYr/1BVrMyH/QfOqoE0RD2IGFulJukBOQXA+9rxZtt4oQtM2fLklw4bfEGBEXKJVskoulildhN4/xbvm3QdZp2Ooj6OFya4HKxMJ1ZGvVEZhhSalK3SoyxgXVDvW3jsxoo0wCz1ssbvJP5HGsu90yLKWQPf7pe1a7P9pFG461Ar0Nss5ta7ZILPt0uYbfX8TIMKvIHl7rLe+sAfnXVQaBP1BHo1izFeKJxeXsju85jRAwWuZ1U8jSBilD21XYyYdiUtlvgqx32xIo0x6a3ZBDfQlNClhVKygwUSXaUFBrWqx2MmhD9m51uSKvbzuZuNLIpihchUVirUBvgqwT0NKpc5vLsxllQip+nLu2FCPo6Ao/pxLHk3g3GLQuNvlpr0iMtk7dATuD7plkQ1XYSX7OKPtNkB06+bIF6maL0NktkHoLG2NZGoT6YLrRES25LkXm1xAViPfg53eXn8lXlhz/ndy0RX8B2fxtssGiN0I2uGnX6/zlkhwZWUhtj3dNlOkOjVbsoA3xwu094m4DN8PqaH4h2YRYK9BbIGv7359/mG8g3VDGcNTAcW5b6iidhHofumhW5BeCJi4OtZkT9FyyThWWFGsFegtknW4pes/OCRHycQ1y3zfbWNsxHbw0sBJu9JYE7sD50td6avP2uWSvPoQ6Yhl6A2TVCfWG5SoBe3/Pz4nnUogbaOHuOKX5BDIqcsJcj24dxsQeH5+I0RZo0SYr5eC5ZIk7ODlNjLUCHZSsaBkFzUvZhsme08UaQYgPLSklV9CYDtIR8bLl+FHVhHct55dTb9RGrwmdxPGaZ5NlxlqBDkq2CvkufldfiZB9+py/o80E2rqta/FI1G90EW9aEAhZNZaoUYO4+HLV4/wqTIfJIteVWIj2XLLnJ4toUTEdlGzFTyb2+rkWRY7cZA3wnrjdacYcZGdcdZ40ocug30S1QXzKokIIcjziP2x10hK8WvRM/ktoQujxR1aWckQ0wXCn3hBZYo3T1WN+RmqmPjC5VpVRNXy6KuDrAsS38gRrJeJhq9XRWJjEQlpiyjDL+OTBb4W5vb+xCjEy0y7CmWWwF79l+XKHJkudgV52g05uvYE6XSJmWKoouCCHegntPq7aAL0xJC8gcdRVcBVcQsxmjYLTf77qOWFXmU4xL+tmNXpmwrzbAPOX0PzmY5/0MSQYZtGByZYhl7jchiocwtnHh0fwYGCGUm7YxB3TO7UxNCVwsaVxbkzdpYjHBq3fJjGyTWLXvfl8NuUpWdwRTBLTqTkzNqaeRjbG+Qo40wTDTDowWWxPTFwTwS1Ajd4rLqBqqBhQu1lIrvkjYSPX45bG7hHZi8jiZEvkrufuliuwWZNOEoOMxEY9nu+ZnayrYNB7pw5M1pSQSkyRBp3EZvMPt5AYA2TbTbNvD7GXKFdzo6amZ3c7yKLVcgX950DWom68qcUHGvcle5LUEcvQof0sbXjShBbiDXpf8eQudrwBJvc77jc9GD5Zz1emkAX6i81i/sS53gAWScFW7eVkTx92NA9COjTZHL5WcqbXbXJ38hk6j0gNJrcNLMnayEsb2ocs1GAw7+bJqcH0oW1iXOhgM5Y4t7c3OM1/lSHgojo4WScwyHlpR4ibUaNr0KlgFvZar/uQhagLkQps7kZduC8bjYZJxyy2tTdZ8LQZzfbwZMMthYfF5oSjLQWhPJSRgO2y2+bah+yABA+bszVMW3BaCmZuMMSh1X58xch+l5yItYVlR0+Mp4OS7ePQHHqorPjp2XxGW7fVTtOEXAPN7aLdhyy0blFx/TANEmnpOhO7yX597IWuV4xkN8dsswQIh+2RaQiTod8jQwKCVf5xDZ3JWK3Z4ui6bqOW28LagyztkbnNL4u8n0erwzoe2Ix1Jm6TTZ7bnMA4k9m+rV5Er3ZQumaH2HAJFxpuFUbIikSULDxRgSw9EmuDWTCexs03T1OvFzE3qkglOyGreYssew6uO5AbYpxP7fSmegNkwz3froQKdsa7+7qbuFGTbZoZVyJk4UlBbENYhnEDOrqRpBBpmjYkGoVQO1MfmOn4YbKZOmN8xt/9sWvVrbdA1o6NVsmYdvxhDP9fg9usyWCkmkOWoG8B2TZYN4kEGu1apdvodi2QHc7j2jVaE6x2snd34sVPPUapjt4CWRRPCwgyNESsKGMD1UU5R0zQISu6ZMkRxZKq1xgVgmwNOZSRtHOE0SOb5glYOj9KNds3QTYYFfck+J0n7VYfKUYNS1Y7RpYcGVRzijhAlYHf91oIFbNzVNwluz9W0PHRf6WY7ZsgG8rkcKV6NjgCbgpSKwbGVePaakAigooESR0hW2+NckJXIK/37aHX3RKeR3O9K5ODkt3fE7hkr06hN5mhN0E2lH3kqUqjLRlLfRnIygVUQcPmaIjxoIInreFQwblRv29LskXJWjZ24jEjNI1md/YRkH0e1o/OCG7+gWW2b4KsmzEXjuTpUJiEJ2jgka2ShwHS0MDuN5WuJrbETsmwC7Zjs1ajWW2DtYZ/HmNnxtznU+bSkJnAQmzLMNu3QTbI8qTflx7qT/DQjpBV0JA8tmTiepFkl5qG3bJdm+02G31cQAIdkXGDzd1Znp9Tqq74ugTb8jjlnxLN9m2QbYRuW36zpMdIK0GSJ+rABrL2ROx7NqsW7L6qoBYhK1gtuyEB2W7HKJUa9TLt1+HvKFovmmNNhk7Pn/06Og2MATY+Q8HR2yCL3NY9+MjNckmzpZp4f+nOCtWz2Rqan242fZl92TSy5zwz6XsbLHiEu7jZppH977+DYbKEoA7rbdCUdtQpQ0NwZHhPGPJeNzSatXz/RD2KOwOkHBtXDJROFiYqZAELZnsSM9sUslff/10cYxKdRFfHaBd3PWd5M39mqCGlrwcgucvQ2Y4vmPbW8D29WUvM2WC7yTIm1yTMAYknzbDJfjx+NbJdP1MGYPLc+p7eXN5MO6kpx3IwwqpaMm0LiO5PMVvyvOdlYaUD1gzGDGTRL4mrFCTxipotk+zH1yPrBEdlv7m04JYbmt3ToVG/WB9Wy+xaCNkjbQBrpqlOx0tv6Uwno7ND8VDDes5sM5aS2U0W9RImgiQTyziH8ePrkYWUA2JZpL7R3YTMFUJL+lIJ0NoTWbZSNkqwJNkuCe6MZtRbLZZL5HWg2Z2STWIvnREfZCAbmYLPBgtmexpK90omS8Pn4+9/cVV8ge7Te4Qgm5OAVWC+fBt2o4F5SNxyNV+5aC0kDrVKbii1WOqTZlnbkt0csE3xcQGz8OkggqxgXBchmSHZnaSS9T94ZE5zynDOaX7pm20iWbchfZyy20JYSRs1+DrbNdYJTVBzYg3EsQ0NBjqPkeeWnNNt3yDAOiWkNQ22qhaqNtz5dJve3RwiiwHdh6VDtwopmKxFObKR3ZqHv2O9rmC6eBLZ5HXV2Uq50OnJLpOlbrZM49A+XU2HPp1OV/fOHAB5VG02kSJ2OiqyGx0RiZ2G7fyHnP9Eo4twzkHXu1vN5sh13WarQPmSyJiRlp+RrLNQl3N413JdvtkmkN0XbNqPmN+dZwprRwh0fTPbpm0x2k+9nE437vDzhLAe2IagIsswZGQbhCT5z0KqYTSQKthNycvYWi17C3AjTlxQ7kOYXO4TzIwrZyULi8tlA0t087mYTHZPrqkme5NpALmLTYg51bK78DGd8slNFzDtDmTVhuAiDMFAsiA0UMMQZGQYTcJXIHGWfd12xgz42eppBt/KXbZSr9MUma7EHq3JShZW64KjmRaYc2aLxhap3RtsyoI1J7dZwFKniBW57QW1+ggs+I5fzt15HKg5qneQZREz7VrEaruWiroW8Qnkr8bQS1/ubYrFJcxy8FdCK9PJ/e3yc+aDRcg6yx9lWl/ug5vusb3E+pe9O4FTlq/K4mSpYBPAcig921kWsbhZTP32eKlOarlSqYG6TQOJ4BBKpQ6yC7maZ4/FKXe2KIYXRvSEmQscpJG9iH74Py+ygnXNlgvtt/Cc3nV28fn7xK+TIBhUgP4Try1mjgHtvDgtLu694WdZGmGsNRokUiDVmSULQ1xut/wmwGZ+O+vRrlIPrO4mMsQTkp9HFn36nGFNX0803cM32+eMs7E9T8YsHaq2Dtsn6K1glVRqtevNdD7j/LhN7Eha29T1dls3c5rUCXoT5k/FJaLBhFr3V0mVCzpEG5jd6bAfWcQ/7F6H2hdN9+DObp4LNqVBktHJUnUwsccSzKv3XKTpWONq01tHfiFVlMWtjgCeX274uzm9Q3xvrdMtVjpK6qZWe5JN26gmQXSOI5jtM7Cm1F+ZnawjRXICUtHf6cdpkHKbzWpXOgq3md+vORrqdGKrUYtpu4Xx3zFXMUgmi6aZFqPeNtuUXl622C2SfPYc3i3J/tr92AlS51OkkoqJT4mMl9zSudrErwUzrqAO42DJbBlk0f0+aD/cPHAJK35lEhPsHk52W3aA1st24W+KaH7fe7q/D3wu4nvc/dOSRGf3iF/Rw3Zt71X/6ah4YtOIRRZx+9RjH07/+JlUfdHF6TOI5Qz2crIRyf5OFTquOg6Vh84v4hY2681tb7qarbnlbLmYT9eErBfzoor/k+hmxj2Bgh2B4qucs8hm2k/B19XxEcxy+vXHPc2WFcyenmTNOU+SWgs2SvHrn810zc3vlku0vFtsVou7+83dbLUKLiOEdlcZ7bG7SoAg8t2O2NO+du8B4pf60V36/9PXe5oto8DnOllPSrCjGqnb3UCAXyx6m6c19/Rp88Tf32246dzft8LbEYiGFfvuteQqYrhHKTUwc5PAiLyiILluP2/LCGaf72Rd1cNbAWLcDxpRPI+4BSdyxdD3tiohrvEdhlMUnR0aNtw0sqi4z34Vntnu422TC3yJk3VQhUFRnzBqsVqotlTD261ZPbrwHFvxGSCB4aaSRb1d21ht9xTQHe32MNvk+uv05iVOFlSN7Rmqm7isCN1t/ylaxkAP79ToGS17IcSIkubWeIabTpbEJDucbaQL5vzon9nNllF/vdTJbk/wDgQ7XOrXg0pLEiSpMhjGd7j0TDzz7uKMWUtXYLi7yO6ox2JdMHuZbTLYlPWAsklIJusYb8qurP45Wbe7Zc8HI+2HnWTRPMXZJvUUnF8Qs/0li9km1l8nTy+iCqqxoWUTM3s+qrSZdv+ze1t19oZWjJv86F98FrNNdAanpy91sqQRtlUjmbHdr+Myt63c3LFmkq80svkMk75YnV9MZufnf2Yw2+QFbjPPUmdL7IdqJdyXJ+00uKRyy1W6W2FXLSXvY5vMC8kitE5ytmnmCPs07zLbpM6YlztZKsvf49KkOXDdQh0W84ni1WE7q/EEckMbQV+Mzlx8OqaXk03o/NoxLgNb2uww24RPc3K3+6Nkk9tYdYbEQGKpoI22QwFzpE1KXiJByx2dxK099oThUxIlLjPefYub7ff9sTM/48d/0SCBqf9J+DQfXuxkfYlVHN/ba7TVNtsekYXhiDLu77eLEZeirN+lt/22T1lE3vYt88WkD7NXZ/cudWs4OndDCRtthLpK7FXJvO/1/3PF1kCdhKOGcuS2t+qZ217visoIhQDh6WPveqnCwVXKlJl37S0R677SxmTftbdGtVpt5MjM2hx417ve9a53ves/UIbmrlulKf6Qr6gozn6lXU3zW9CC4i3g3NAUN+Cz/WekHMWV5vVkiM6hQb+w1YIxNIzLSqj6JeV5LaKW4sudHljxn5GS3Q8jp8wkfjuSsJvYjLE/WV/0tnnv4GAcuIK976OSl51WdCHYDl4KJv96ZOXgUGiaxLV7KIjGS0EpSvAWd3ceWJeI/qItHMwJkHasf/4mxCJLRynDZCc+WTTw8htN7PddkHJG13VQLUTWvK6Pa/5uhu55uNICgv7dECJbGdevRxi3SUle0i8hOnIKCw2c4pS5xIGgVKFQKDhXKpFnBdrjWqDP4PtNaP9VYetglzwGW10iqVBoFeh6iMiqVEPdDR1ynkB/YYG+NbbrFYsstJ0ZZBuu+VgY12LlBJKdQmADnmCTaMINPoLgvYa2yIKakbzUNv0QytZJUpa8tSZctK31q21q4pVav98fgOvD1X6/OqDfyaDfEq6HB/Ay/Wj9vhb87pXqAPerLecFqR4kI09G/X6dlpxT4K3ReWFMsnCYQRa57qAQelnCsQQSn6yBcbDgEKaDdGolWMAtQtbA25t1d8nVVCv08WjRrB0iQqKbH9ANahQw8Yp/QZ/OpAYza6o1StYjY4Afamwt8UUfnFnQfX8PsQl8hDrAyyX2hDHI1kywLRbZiuM5TRz8gqQcSZRB/iGfbDg7ug8p2MKWxe0gC3sjVIZ4u9aqlZO+zJa6dA05StaGr5ZEVmqTp+PKNlk6X2YcdH7bDpgWrRlU/zxKlo6L6Yk3EIOsIkEdwyLbpe7A8qsZFK7BfPMkZHP9anVAHEDwCzj3AzZDbmkXWZW+Y3t6a3+3O5BotUnJ0j0UK7XqYABLzyKskCdAsyINSsTZVqXwQYfsIPBILlnN4dT2xsULI/LVKO2RRt4aW0OdQXaIdHLbNhhkUQ7cQSHsWpPJuiqHRunFgXvQR7OLLJyAI5MtBPZOs54G9AxKVqVkNUGS6EIRuEWegU1WCiUFVS1KERfcgyyy184VR95gxORaECZ0Tm67Qt4aS6ZjkiX2WmOSLYA7KOOQMyLlVJ25wf4wiAxxax3HHLDYJHUKxv6ePDvJQhUYKaO5u6dPofez6w3IB634oZ//K1UKqolGDsWIN6gHv5xLtuLE1b5FUG/QhCo82c8K3oeOkgXvOGCRJVFmWw7HpOwarBMOsJAq2/QbNMpBELWbLPHrkZ3SMpCtBjY7gUZQEtkJum4OomSHyFvdxPuy9MGidiT4+UeUbIlN1nDDeOLMyt4xh6xzMyeTheCpuvV12bGBFLnzHYdZxX4iz99E1qCFjiqGoFBqFQ1W26FRlwSL7oiUrEHaIQol24KD5ESjbQitcPEuWfIpjE4lCKon14Yg0Rs+V4CSo46fVEa6G2D6dYRDFg4xyTpuFW0dYMWz16HYFSow+HKyHuB+DtkMflamu3z0NU2bUHMUNFhFFswInmiwQqogkCa4ilpN7+CQcOuQx0H4crJXTxv19iDgZ5DznEZ6lb41tv8gcXlmf6KF71mXLBgmiyw16DAPaIPVnTZYMziHErVxiDrsL6/1FcxuKWQiW83QVKgfeCDb8irwwGkSstSLN3BivwHVeKu1udVv4L1F9ppoYPxeXaeO3bNMv82ym2wfR/tgRnqGb5a6rNErSK7UdD03DKWFiJrmfNVCuK9LG4aTH5rkVgiXYmiehh4Ecai5zfuBpgV+yxjm9Fw9lMnTGGphF10aatE7Xdq+NtwG7JWyQp8xwzl/s9RX7jp68eVajNVb3vVS4feMgL9HQsr093e9QCJz9ZZ3vUzxPT3f9a53vetd73rXu0L6Xzj4q3YYtd4EAAAAAElFTkSuQmCC" alt="LBRCE LOGO"
+            width="250" height="270">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="navbar">
+            <br>
+            <a style="color: #CF0A0A;" href="#" class="nav-links">About KL</a>
+            <a href="#" class="nav-links">Admissions</a>
+            <a href="#" class="nav-links">Academics</a>
+            <a href="#" class="nav-links">Colleges</a>
+            <a href="#" class="nav-links">Skill Dev</a>
+            <a href="#" class="nav-links">Placements</a>
+            <a href="#" class="nav-links">R & D</a>
+            <a href="#" class="nav-links">Global Connect</a>
+            <a href="#" class="nav-links">Facilities</a>
+            <a href="#" class="nav-links">IQAC</a> <br>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="c">
+        <h2><u>NOTIFICATIONS </u></h2>
+        <h3>
+            <marquee behavior="scrolldown" direction="left" scrollamount="10"> <u>
+                    <ul type="disc">
+                        <div>
+                            <li style="color: #fff; background-color: #CF0A0A;">
+                                LoremipsumdF8B400F8B400F8B400F8B400F8B400F8B400F8B400F8B400F8B400F8B400F8B400F8B400LoremipsumLoremipsumLoremipsumLoremipsumi
+                            </li>
+                        </div>
+                </u></marquee>
+            </ul>
+        </h3>
+    </div>
+    <div>
+        <marquee behavior="scrolldown" direction="left" scrollamount="13"> <img
+                src="https://www.kluniversity.in/img/slider/accreditations.jpg" alt="klu" width="1330" height="900">
+            &nbsp; <img src="https://www.kluniversity.in/img/slider/up.jpg" alt="klu" height="900" width="1330">
+            &nbsp;<img src="https://www.kluniversity.in/img/slider/AICTE-BTA-Banner.jpg" alt="" width="1330"
+                height="900"></marquee>
+    </div>
+    <h1 style="text-align: center;"><big><u>About Us</u></big></h1>
+    <div class="box">
+
+        <img id="a" src="https://www.kluniversity.in/img/aboutus.webp" width="450" height="450" alt="">
+        <h2>
+            <p>
+                &nbsp;&nbsp;&nbsp; The Koneru Lakshmaiah Charities was established as a trust in the year 1980
+                &nbsp;&nbsp;&nbsp;&nbsp;with its official address at
+                Museum road, Governorpet, Vijayawada, Andhra &nbsp;&nbsp;&nbsp;&nbsp;Pradesh 520 002 and started KL
+                College of Engineering in.
+                <br>
+                <br>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;KL Deemed to be University was established in 1980-81, as KL College of
+                &nbsp;&nbsp;&nbsp;&nbsp;Engineering, which was upgraded
+                to KL College of Engineering Autonomous in &nbsp;&nbsp;&nbsp;&nbsp;2006 by UGC, and was declared as a
+                Deemed to be University in
+                2009 by UGC, &nbsp;&nbsp;&nbsp;&nbsp;MHRD Govt.of India. In 2012 as a Deemed to be University the
+                institution was &nbsp;&nbsp;&nbsp;&nbsp;accredited by
+                NAAC with A Grade and later in 2018, was re-accredited by &nbsp;&nbsp;&nbsp;&nbsp;NAAC with A++ grade.
+                In 2019 UGC, MHRD
+                declared this institution as &nbsp;&nbsp;&nbsp;&nbsp;Category I Institution.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div>
+
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img
+                    src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSSZgNZik0HHkqtnCAwAVkGep_ly_hK9_x37EJafKzQxgE-ondD"
+                    alt="" width="100" height="100">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSItRxG4_ycFzcCoG0uNoA_NlsIbZSAcP7KZOT8QmLrNXo5lPV_"
+                    alt="" width="100" height="100">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQHutukv7HoYClt_AoWw98OrULzLmURqXqW8L7_92IBQdGEq0KK"
+                    alt="" width="100" height="100">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRFbHKttrbwzC_KpRJnzkklnC4HC1bF-ruDyB5u7aAzEETzGDDY"
+                    alt="" width="100" height="100">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+
+            </p>
+        </h2>
+
+    </div>
+    <div class="rate">
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;654(Faculty)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;789(Acres
+            Campus)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;567(Labs)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;654(Publications)
+        </h2>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="x">
+        <img id="a" src="https://images.collegedunia.com/public/college_data/images/campusimage/15814066728Q0A3465.JPG"
+            width="650" height="640" alt="">
+        <h1 style="padding: 50px;"><big>&nbsp;Student's Section</big></h1>
+        <div class="nav">
+            <br>
+            <a style="color: #181515;" href="#" class="links"></a>
+            <a href="#" class="links"><big><b>&nbsp;Academics</b></big></a>
+            <p>&nbsp;K L revels fosters amicable learning environment.</p>
+            <a href="#" class="links"><big><b>&nbsp;International Admissions</b></big></a>
+            <p>&nbsp;The Office of International Relations at KL University is committed to &nbsp;improving the academic
+                image, educational standards..,</p>
+            <a href="#" class="links"><big><b>&nbsp;KL Incubation Center</b></big></a>
+            <p>&nbsp;Innovation requires nothing short &nbsp;of a paradigm shift in the established ways &nbsp;of
+                thinking. The zeal to explore and dare to break the boundaries is &nbsp;encouraged among students.
+            </p>
+            <a href="#" class="links"><big><b>&nbsp;Anti - Ragging</b></big></a>
+            <p>&nbsp;The university ensures a ragging free campus through well-structured &nbsp;policies...</p>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <h1 style="text-align: center;"><big><u>Research Bulletin</u></big></h1>
+
+    <div class="o">
+        <img id="b" src="https://www.kluniversity.in/img/static/research2.jpg" width="550" height="450" alt="">
+        <h6>
+            <div class="n">
+                <br>
+                <a href="#" class="l">&nbsp;INDIA-JAPAN COOPERATIVE SCIENCE PROGRAMME (IJCSP) -- CALL FOR
+                    &nbsp;PROPOSALS-&nbsp;2023.</a>
+
+                <br>
+                <a href="#" class="l">&nbsp;Dr. B T P Madhav received AICTE Best Teacher Award for the year 2022.</a>
+                <br>
+
+                <a href="#" class="l">&nbsp;KLEF Faculty Listed in Top 2% Researchers of the World.</a>
+
+                <br>
+                <a href="#" class="l">&nbsp;Ph.D.Synopsis Open Talk” of SUNNY AGARWAL, Regd.No.163020029, Dept of CE,
+                    &nbsp;KL.Deemed to be University on 31.07.2021, 03.00 PM onwards.</a>
+
+
+                <br>
+                <a href="#" class="l">&nbsp;Viva-Voce Examination of G.NARASIMHA MURTHY, Regd.No.14323006, Research
+                    Scholar,
+                    &nbsp;Dept.of CHE, on 23-07-2021 from 11.00 AM onwards.</a>
+
+                <br>
+                <a href="#" class="l">&nbsp;Viva-Voce Examination of G.NAGA RAJU, Regd.No.163040041, Research Scholar,
+                    Dept.of &nbsp;ECE, on 23-07-2021 from 03.30 PM onwards.</a>
+
+
+                <br>
+                <a href="#" class="l">&nbsp;PhD Admission Registrations for 2021-22 Odd Semester is on 28-7-2021.</a>
+
+                <br>
+                <a href="#" class="l">&nbsp;Read >></a>
+            </div>
+    </div>
+
+    </h6>
+    <br>
+    <br>
+    <br>
+    <div class="cam">
+        <h1 style="text-align: center;">
+            <big>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Campus
+                Life</big></h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div>
+        <img
+            src="https://www.kluniversity.in/img/campuslife/library01.jpg"
+            alt="" width="300" height="300">
+        &nbsp;
+
+        <img src="https://www.kluniversity.in/img/campuslife/Hitech-Campus.jpg"
+            alt="" width="300" height="300">
+        &nbsp;
+
+        <img src="https://www.kluniversity.in/img/campuslife/Sports02.jpg"
+            alt="" width="300" height="300">
+        &nbsp;
+
+        <img src="https://www.kluniversity.in/img/campuslife/Hostel01.jpg"
+            alt="" width="300" height="300">
+        &nbsp;
+
+
+
+</div>
+
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="v">
+        <img id="xy" src="https://www.kluniversity.in/img/newadmission.jpg"
+            width="650" height="380" alt="">
+        <h1 ><big>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Admissions</big></h1>
+        <div class="ty">
+            <br>
+            <a style="color: #d81212;" href="#" class="ui"></a>
+            <a href="#" class="ui"><big><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Academics</b></big></a>
+            <br>
+            <br>
+            <a href="#" class="ui"><big><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;International Admissions</b></big></a>
+            <br>
+            <br>
+            <a href="#" class="ui"><big><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KL Incubation Center</b></big></a>
+           <br>
+           <br>
+           <a href="#" class="ui"><big><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Academics</b></big></a>
+           <br>
+           <br>
+           <a href="#" class="ui"><big><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;International Admissions</b></big></a>
+           <br>
+           <br>
+           <a href="#" class="ui"><big><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KL Incubation Center</b></big></a>
+          <br>
+          <br>
+          
+         <a href="#" class="ui"><big><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor   Center</b></big></a>
+           <br>
+           <br>
+          
+            <a href="#" class="ui"><big><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Academics</b></big></a>
+            <br>
+            <br>
+            
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+<div>
+    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NEWS & EVENTS   </h2>
+
+    <br>
+    <div class="ia">
+        <marquee behavior="scrolldown" direction="bottom" scrollamount="8">                                   
+            <img src="https://www.kluniversity.in/news3154/001.jpeg" alt="" width="1350" height="300">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           </marquee> 
+        </marquee>
+       
+            
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<div class="e">
+    <h1 style="text-align: center;">Announcements</h1>
+    <div class="k">
+<h3><p>Lorem ipsum dolor sit amet,
+    consectetur adipisicing elit.
+    Cumque molestias exercitationem illum
+    consectetur adipisicing elit.consectetur adipisicing elit. 
+    <br>
+    <br>
+    consectetur adipisicing elit. 
+    consectetur adipisicing elit.
+    <br>
+    <br>
+    Cumque molestias exercitationem illum
+    consectetur adipisicing elit.consectetur adipisicing elit. Cumque molestias exercitationem illum
+    consectetur adipisicing elit.consectetur adipisicing elit.
+    <br>
+    <br>
+     blanditiis, labore voluptatem beatae pconsectetur adipisicing elit.
+     <br>
+     <br>
+     ariatur voluptates odio repudiandae doconsectetur adipisicing elit.
+     <br>
+     <br>
+     lorum asperiores natus reprehenderit consectetur adipisicing elit. Cumque molestias exercitationem illum
+     consectetur adipisicing elit.consectetur adipisicing elit.
+     <br>
+     <br>
+     lorum asperiores natus reprehenderit consectetur adipisicing elit. Cumque molestias exercitationem illum
+     consectetur adipisicing elit.consectetur adipisicing elit.
+     <br>
+     <br>
+     lorum asperiores natus reprehenderit consectetur adipisicing elit. Cumque molestias exercitationem illum
+     consectetur adipisicing elit.consectetur adipisicing elit.
+     dignissimos libero ut neque dolor sed!</p>
+</h3>
+
+
+    </div>
+    </div>
+    <br><br>
+    <div>
+        <h1 style="text-align: center;"><big>Student Activities</big></h1>
+        <div class="fot">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://www.kluniversity.in/img/client/smart_village_thumb.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://www.kluniversity.in/img/client/ieee.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://www.kluniversity.in/img/client/sea.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://www.kluniversity.in/img/client/CEA-Logo.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://www.kluniversity.in/img/client/wforum.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://www.kluniversity.in/img/client/pulse_logo.png" alt="" width="50" height="50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="qui">
+        <br>
+        <a href="#" class="qw"><big><b>Quick Links</b></big></a>
+        <br>
+        <a href="#" class="qw">About KL</a>&nbsp;
+        <a href="#" class="qw">Admissions</a>&nbsp;
+        <a href="#" class="qw">Academics</a>&nbsp;
+        <a href="#" class="qw">Colleges</a>&nbsp;
+        <a href="#" class="qw">Skill Dev</a>&nbsp;
+        <a href="#" class="qw">Placements</a>&nbsp;
+        <a href="#" class="qw">R & D</a>&nbsp;
+        <a href="#" class="qw">Global Connect</a>&nbsp;
+        <a href="#" class="qw">Facilities</a>&nbsp;
+        <a href="#" class="qw">IQAC</a>&nbsp;
+        <a href="#" class="qw">Admissions</a>&nbsp;
+        <a href="#" class="qw">Academics</a>&nbsp;
+        <a href="#" class="qw">Colleges</a>&nbsp;
+       <br>
+       <div class="kl">
+        <h4>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;© Copyright 2022 by K L Deemed to be University. All Rights are Reserved.&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        </h4>
+    </div>
+
+
+
+    </div>
+    
+   
+</body>
+</html>
